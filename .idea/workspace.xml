@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ec4eea-69e6-4d25-937a-d8c0052ec0b1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/countOnesDataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Majority_On_Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Majority_On_Data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Majority_On_Example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Majority_On_Example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/majorityOnDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/majorityOnDataset.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,10 +22,10 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="carryDataset.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="carryDataset.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/carryDataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
+            <state relative-caret-position="1037">
               <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
             </state>
           </provider>
@@ -45,20 +43,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="majorityOnDataset.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="majorityOnDataset.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/majorityOnDataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+            <state relative-caret-position="529">
+              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="countOnesDataset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/countOnesDataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>even_parity</find>
+      <find>majority_on</find>
+      <find>Majority_On</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,6 +85,7 @@
       <list>
         <option value="$PROJECT_DIR$/evenParityDataset.py" />
         <option value="$PROJECT_DIR$/majorityOnDataset.py" />
+        <option value="$PROJECT_DIR$/countOnesDataset.py" />
       </list>
     </option>
   </component>
@@ -172,13 +189,14 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32976446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32976446" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32119915" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20689656" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32976446" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -187,7 +205,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -232,13 +249,6 @@
     <entry file="file://$PROJECT_DIR$/Carry_Data.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/carryDataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Carry_Example.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -265,8 +275,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/majorityOnDataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        <state relative-caret-position="529">
+          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countOnesDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carryDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
         </state>
       </provider>
     </entry>
