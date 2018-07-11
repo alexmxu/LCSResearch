@@ -1,6 +1,5 @@
 import random
 
-
 def generate_majority_on_data(myfile, num_bits, instances):
     """Generates a majority on dataset with instances instances of num_bits-long boolean strings"""
     print ("Problem_Majority_On: Generate majority on dataset with " + str(instances) + " instances, each of length " + str(num_bits) + ".")
@@ -15,9 +14,10 @@ def generate_majority_on_data(myfile, num_bits, instances):
         state_phenotype = generate_majority_on_instance(num_bits)
         for j in state_phenotype[0]:
             fp.write(str(j)+"\t")
-        fp.write(str(state_phenotype[1])+ "\n")
+        fp.write(str(state_phenotype[1]) + "\n")
 
     fp.close()
+
 
 def generate_majority_on_instance(num_bits):
     """Generates random boolean string and output"""
@@ -34,6 +34,7 @@ def generate_majority_on_instance(num_bits):
     else:
         action = 0
     return [condition, action]
+
 
 def generate_complete_majority_on_data(myfile, num_bits):
     """Generates a complete majority on dataset with instances instances of num_bits-long boolean strings"""
@@ -70,6 +71,7 @@ def generate_complete_majority_on_data(myfile, num_bits):
         fp.write(str(action) + "\n")
 
     fp.close()
+
 
 # Generate an even parity dataset
 generate_majority_on_data("Majority_On_Data.txt", 8, 1000)
