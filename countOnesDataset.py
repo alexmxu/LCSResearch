@@ -71,29 +71,45 @@ def generate_complete_count_ones_data(myfile, num_bits, k, pos = None):
             condition = "0" + condition
 
         num_ones = 0
-        for j in range(num_bits):
-            if condition[j] == "1":
-                num_ones += 1
-        if num_ones > int(num_bits/2):
-            action = 1
+        if pos is None:
+            for j in range(k):
+                if condition[j] == "1":
+                    num_ones += 1
+            if num_ones > int(k/2):
+                action = 1
+            else:
+                action = 0
         else:
-            action = 0
+            if len(pos) > k or len(pos) < k:
+                print(
+                    "positions of specified relevant bits must be less than or equal to the number of relevent bits")
+            else:
+                for x in pos:
+                    if x < num_bits or x > num_bits:
+                        print("positions must be in the range of num_bits")
+                        return -1
+            for j in pos:
+                if condition[j] == "1":
+                    num_ones += 1
+            if num_ones > int(k/ 2):
+                action = 1
+            else:
+                action = 0
 
-        for k in condition:
-            fp.write(str(k) + "\t")
+        for l in condition:
+            fp.write(str(l) + "\t")
         fp.write(str(action) + "\n")
 
     fp.close()
 
-print(generate_count_ones_instance(6,3,[0,1,4]))
 
-"""
+
 # Generate an even parity dataset
-generate_count_ones_data("Count_Ones_Data.txt", 8, 1000)
+generate_count_ones_data("Count_Ones_Data.txt", 8, 5, 1000)
 # Generate a complete even parity dataset
-generate_complete_count_ones_data("Complete_Count_Ones_Data.txt", 5)
+generate_complete_count_ones_data("Complete_Count_Ones_Data.txt", 5, 3)
 # Print a text output
-generate_count_ones_data("Count_Ones_Example.txt", 10, 10)
+generate_count_ones_data("Count_Ones_Example.txt", 10, 6, 10)
 fp = open('Count_Ones_Example.txt', 'r')
 print(fp.read())
-fp.close()"""
+fp.close()
