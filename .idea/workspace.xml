@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95ec4eea-69e6-4d25-937a-d8c0052ec0b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Count_Ones_Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Count_Ones_Data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Count_Ones_Example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Count_Ones_Example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countOnesDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/countOnesDataset.py" afterDir="false" />
-    </list>
+    <list default="true" id="95ec4eea-69e6-4d25-937a-d8c0052ec0b1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LCSResearch$majorityOnDataset.coverage" NAME="majorityOnDataset Coverage Results" MODIFIED="1531426877637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LCSResearch$countOnesDataset.coverage" NAME="countOnesDataset Coverage Results" MODIFIED="1531450108225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LCSResearch$countOnesDataset.coverage" NAME="countOnesDataset Coverage Results" MODIFIED="1531753510871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -55,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="majorityOnDataset.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="majorityOnDataset.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/majorityOnDataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-646">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countOnesDataset.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="countOnesDataset.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/countOnesDataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="1303">
               <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
             </state>
           </provider>
@@ -225,7 +220,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="971" height="1046" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -335,17 +329,17 @@
         <state relative-caret-position="-561" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/majorityOnDataset.py">
+    <entry file="file://$PROJECT_DIR$/countOnesDataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="1303">
+          <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/countOnesDataset.py">
+    <entry file="file://$PROJECT_DIR$/majorityOnDataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+        <state relative-caret-position="-646">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
