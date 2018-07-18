@@ -80,9 +80,9 @@ def generate_complete_count_ones_data(myfile, num_bits, k, pos = None):
             else:
                 action = 0
         else:
-            if len(pos) > k or len(pos) < k:
+            if (pos is not None) and len(pos) != k:
                 print(
-                    "positions of specified relevant bits must be less than or equal to the number of relevant bits")
+                    "positions of specified relevant bits must be equal to the number of relevant bits")
             else:
                 for x in pos:
                     if x < num_bits or x > num_bits:
