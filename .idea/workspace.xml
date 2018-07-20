@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95ec4eea-69e6-4d25-937a-d8c0052ec0b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/countOnesDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/countOnesDataset.py" afterDir="false" />
-    </list>
+    <list default="true" id="95ec4eea-69e6-4d25-937a-d8c0052ec0b1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +20,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="carryDataset.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="carryDataset.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/carryDataset.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1037">
@@ -55,19 +53,24 @@
       <file leaf-file-name="majorityOnDataset.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/majorityOnDataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="93">
+              <caret line="59" column="20" lean-forward="true" selection-end-line="83" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countOnesDataset.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="countOnesDataset.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/countOnesDataset.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+              <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="designVerificationDataset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designVerificationDataset.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -95,6 +98,7 @@
         <option value="$PROJECT_DIR$/evenParityDataset.py" />
         <option value="$PROJECT_DIR$/majorityOnDataset.py" />
         <option value="$PROJECT_DIR$/countOnesDataset.py" />
+        <option value="$PROJECT_DIR$/designVerificationDataset.py" />
       </list>
     </option>
   </component>
@@ -108,9 +112,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="1942" />
-    <option name="height" value="2092" />
+    <option name="x" value="-3112" />
+    <option name="y" value="596" />
+    <option name="width" value="1940" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -214,17 +219,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="971" height="1046" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1556" y="298" width="970" height="496" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30299786" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7369792" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32119915" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20689656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20711297" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -296,13 +300,6 @@
         <state relative-caret-position="-62" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carryDataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evenParityDataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
@@ -320,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/majorityOnDataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Complete_Count_Ones_Data.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -335,10 +325,27 @@
         <state relative-caret-position="-561" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/majorityOnDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="59" column="20" lean-forward="true" selection-end-line="83" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designVerificationDataset.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/countOnesDataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+          <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carryDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
         </state>
       </provider>
     </entry>
