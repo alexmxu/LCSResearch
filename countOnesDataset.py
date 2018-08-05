@@ -112,4 +112,4 @@ generate_complete_count_ones_data("Complete_Count_Ones_Data.txt", 5, 3)
 generate_count_ones_data("Count_Ones_Example.txt", 10, 6, 10, [0,1,6,7,8,9])
 fp = open('Count_Ones_Example.txt', 'r')
 print(fp.read())
-fp.close()
+fp.close()k
